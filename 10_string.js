@@ -23,3 +23,7 @@ console.log(username.toLowerCase());
 
 // แทนที่ตัวอักษรที่ระบุทั้งหมด ด้วยตัวที่ต้องการ
 console.log("080-071-0622".replaceAll("-", ""));
+
+// แยกส่วนของ string โดยจะส่งคืน string ใหม่ ไม่แก้ไข string เดิม
+// ตำแหน่งเริ่มต้น, นับไปอีกกี่ตัว
+console.log(username.slice(0, 4));
