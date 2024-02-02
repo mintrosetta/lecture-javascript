@@ -1,4 +1,14 @@
 /*
     Function Expression
-        https://youtu.be/8dWL3wF_OMw?si=e9vF-lb6mK6XgXpS&t=10495
+        เป็น function ที่ไม่มีชื่อ เชื่อเพื่อเขียนแล้วลืมมันไปเลย
 */
+
+const greeting = function () {
+    console.log("Hello !");
+}
+greeting();
+
+sayHello();
+function sayHello() {
+    console.log("Hello!");
+}
