@@ -1,6 +1,24 @@
 /*
     Array of object
         เป็น array ที่จัดเก็บชุดของ object ไว้
-
-    https://youtu.be/8dWL3wF_OMw?si=_cv3RZkTIBG0qnpz&t=14039
 */
+
+class Car {
+    constructor(model, year, color) {
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    }
+}
+
+const cars = [
+    new Car("Mustang", 2022, "red"),
+    new Car("Toyota", 2019, "blue")
+];
+
+console.log(cars)
+console.log(cars[0].color);
+
+for (let car of cars) {
+    console.log(car);
+}
