@@ -6,6 +6,8 @@
     Await
         ใช้กับ async function เพื่อรอให้ Promise ส่งคืนค่ากลับมา
         โดยสามารถใช้ได้ใน function ที่เป็ต async เท่านั้น
+
+        https://youtu.be/8dWL3wF_OMw?si=PxyZYJeioawknKpB&t=17266
 */
 
 async function loadFile() {
